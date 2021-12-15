@@ -15,9 +15,15 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
-        var layout=React.createElement('div',{className:"parentBlock"}, React.createElement('div',{className:'firstBlock'}, React.createElement('div',{className:'first'},'',null), React.createElement('div',{className:'second'},'',null),null), React.createElement('div',{className:'secondBlock'},'',null),
-        React.createElement('div',{className:'thirdBlock'}, React.createElement('div',{className:'tfirst'},'',null), React.createElement('div',{className:'tsecond'},'',null), React.createElement('div',{className:'tthird'},'',null),'',null)); ReactDOM.render(layout,document.getElementById('root'));
+        var reactElement = React.createElement('div', { className: "parentBlock" }, React.createElement('div', { className: "firstBlock" }, React.createElement('div', { className: 'first' }), React.createElement('div', { className: 'second' })), React.createElement('div',{
+        className: "secondBlock" }), React.createElement('div', { className: "thirdBlock" }, React.createElement('div', { className: "tfirst" }), React.createElement('div', { className: "tsecond" }), React.createElement('div', { className: "tthird" })),
+        null, null); ReactDOM.render(reactElement, document.getElementById('root'));
     </script>
+
+
+
+
+
     <!--
      Note: this page is a great way to try React but it's not suitable for production.
      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
