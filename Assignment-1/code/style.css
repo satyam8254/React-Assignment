@@ -1,3 +1,8 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 #root {
     display: flex;
     flex-direction: column;
@@ -32,4 +37,76 @@
 .tsecond,
 .tthird {
     background-color: mediumslateblue;
+}
+
+@media only screen and (max-width: 320px) {
+    .firstBlock {
+        display: flex;
+        flex-direction: row;
+    }
+    .first,
+    .second {
+        background-color: gold;
+    }
+    .secondBlock {
+        background-color: hotpink;
+    }
+    .thirdBlock {
+        display: flex;
+    }
+    .tfirst,
+    .tsecond,
+    .tthird {
+        background-color: mediumslateblue;
+    }
+    .firstBlock .first .second {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .firstBlock {
+        display: flex;
+        flex-direction: row;
+    }
+    .first,
+    .second {
+        background-color: gold;
+    }
+    .secondBlock {
+        background-color: hotpink;
+    }
+    .thirdBlock {
+        display: flex;
+    }
+    .tfirst,
+    .tsecond,
+    .tthird {
+        background-color: mediumslateblue;
+    }
+    .firstBlock .first .second {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .firstBlock {
+        display: flex;
+        flex-direction: row;
+    }
+    .first,
+    .second {
+        background-color: gold;
+    }
+    .secondBlock {
+        background-color: hotpink;
+    }
+    .thirdBlock {
+        display: flex;
+    }
+    .tfirst,
+    .tsecond,
+    .tthird {
+        background-color: mediumslateblue;
+    }
 }
