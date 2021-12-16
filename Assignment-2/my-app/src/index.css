@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+
+}
+
+.title-container h1{
+  color: aqua;
+}
+
+.profile-info-container{
+  margin: 20px;
+}
+.profile-info-container label{
+  font-size: 13px;
+  color: slategrey;
+}
+.profile-info-container label, .profile-info-container strong{
+  display: block;
+}

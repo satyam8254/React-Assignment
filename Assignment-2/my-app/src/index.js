@@ -4,9 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const employee = {
+  name: 'Satyam',
+  location: 'India',
+  bloodGroup: 'O+',
+  age: 21,
+  profileImg:'https://www.w3schools.com/howto/img_avatar.png'
+  }
+  
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App employee={employee}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
