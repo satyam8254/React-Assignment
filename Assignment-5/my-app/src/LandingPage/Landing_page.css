@@ -1,0 +1,59 @@
+.site-container{
+    text-align: center;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    margin:0;
+  } 
+  
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+  
+  .instagram-logo{
+    height: 80px;
+    width: 220px;
+  }
+  
+  .camera-icon{
+    height: 80px;
+    width: 100px;
+  }
+
+
+
+
+.homelayout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10% 0 5% 0;
+}
+.iconpic{
+    border-radius: 20px;
+}
+.pagelink{
+    margin-right:20%;
+}
+.Link{
+    margin-left: 60px;
+    padding:10px;
+    background-color: rgb(18, 18, 19);
+    color:white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
